@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduccion a HTML</title>
+
+    <!--  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=New+Amsterdam&display=swap" rel="stylesheet">
+    -->
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="imgs/pagina/Logo.png" alt="Imagen del logo">
+        </header>
+        <nav>
+            <a id="activo" href="index.html">HTML</a>
+            <a href="index-texto.html">Texto</a>
+            <a href="index-imgs.html">Imagenes</a>
+            <a href="index-links.html">Enlaces</a>
+            <a href="index-css.html">CSS</a>
+            <a href="index-disenio.html">Proceso de diseño</a>a
+        </nav>
+        <section>
+            
+            <div class="titulo">
+                <h1>Introdución a HTML.</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>Ideas principales:</h2>
+                <div class="texto1">
+                    <p>HTTPS: es un protocolo de transferencia de hipertexto.</p>
+                    <ol>
+                        <li>Que es HTML.</li>
+                        <li>Que es CSS.</li>
+                        <li>Arquitectura cliente-servidor.</li>
+                        <li>Etiquetas.</li>
+                        <li>Estructura básica de HTML5.</li>
+                        <li>Atributo de lenguaje.</li>
+                    </ol>
+
+                    <p>Se explicó, como crear un archivo desde el programa <i>Visual Studio Code</i>, siendo los pasos:</p>
+                    <ol>
+                        <li>New file.</li>
+                        <li>File.</li>
+                        <li>Seleccionamos el lenguaje a usar.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="derecha">
+                <h2>Apuntes de clase:</h2>
+                <div class="texto2">
+                    <p><b>Que es HTML:</b> Hyper Text Markup Lenguaje (Lenguaje de marcado de hipertexto). Este usa antilambda &lt; &gt;para poder etiquetar el texto, ya que este lenguaje funciona por medio de etiquetas.</p>
+                
+                    <p><b>Que es CSS:</b> Cascading Style Sheets (hojas de estilo en cascada). Este lenguaje es el que le agrega el atractivo visual.</p>
+
+                    <p><b>Arquitectura cliente-servidor:</b> Se le hace una petición del cliente al servidor. El servidor manda la información solicitada. Y el navegador traduce la
+                    información.</p>
+                    
+                    <p><b>Etiquetas:</b> Las etiquetas, en su mayoría, tienen una apertura y un cierre, por ejemplo: 
+                    &lt;Etiqueta&gt; contenido &lt;/Etiqueta&gt;. Se dividen en etiquetas <u>Padres</u> y etiquetas <u>Hijas</u>, ya que unas se van anidando dentro de otras.<p>
+                    
+                    <p>
+                        <b>Estructura básica de HTML5:</b>
+                        La estructura básica de HTML5 se acomoda de la siguiente manera:
+                        <ol>
+                            <li>Se declara el documento con la etiqueta &lt;!DOCTIPE html&gt;</li>
+                            <li>Se abre el documento HTML con la etiqueta &lt;html&gt;</li>
+                            <li>Se abre y cierra la cabecera &lt;head&gt;&lt;/head&gt; Ahí van todos los elementos no visibles, pero necesarios para la página.</li>
+                            <li>Se abre y cierra la etiqueta &lt;body&gt;&lt;/body&gt; Ahí va a ir todo el contenido de nuestra página.</li>
+                            <li>Se cierra la etiqueta &lt;/html&gt;</li>
+                        </ol>
+                    </p>
+                    
+                    <p><b>Atributo de lenguaje:</b> Especifica el lenguaje que usara la página para traducir el texto y sus caracteres especiales, como la <i>ñ</i> o las
+                    letras con acentos.</p>
+                    
+                </div>
+                <div class="imagen">
+                    <img src="imgs/contenido/estructura.jpg" alt="Imagen de estructura">
+                </div>
+            </div>
+
+            <div class="abajo">
+                <h2>Resumen:</h2>
+                <div class="texto3">
+                    <p>Se dio una introducción breve del material que se usara en clase. Más, un repaso de la comunicación entre el cliente y
+                    el servidor. Que es un documento HTML y CSS y qué función cumplen en una página web.Se mostró la estructura básica para una página, más una explicación simple de los atributos en esta.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <img src="imgs/pagina/Logo.png" alt="Logo">
+        </footer>
+    </main>
+</body>
+</html>

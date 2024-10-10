@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes en HTML</title>
+
+    <!--  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=New+Amsterdam&display=swap" rel="stylesheet">
+    -->
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="imgs/pagina/Logo.png" alt="Imagen del logo">
+        </header>
+        <nav>
+            <a href="index.html">HTML</a>
+            <a href="index-texto.html">Texto</a>
+            <a id="activo" href="index-imgs.html">Imagenes</a>
+            <a href="index-links.html">Enlaces</a>
+            <a href="index-css.html">CSS</a>
+            <a href="index-disenio.html">Proceso de diseño</a>
+        </nav>
+        <section>
+            
+            <div class="titulo">
+                <h1>Imagenes en HTML.</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>Ideas principales:</h2>
+                <div class="texto1">
+                    <ol>
+                        <li>Etiqueta.</li>
+                        <li>Atributos.</li>
+                        <li>Recomendación de uso.</li>
+                        <li>SEO.</li>
+                    </ol>
+                    
+                </div>
+            </div>
+
+            <div class="derecha">
+                <h2>Apuntes de clase:</h2>
+                <div class="texto2">
+                    <p><b>Etiqueta:</b> La etiqueta no tiene cierre y se ve asi: <i>&lt;img src=<q>&#35;</q> title=<q>titulo</q>&gt;</i></p>
+                    <p><b>Atributos:</b></p>
+                    <ul>
+                        <li><b>src:</b> Indica la ubicación del archivo. Ya sea dentro de la carpeta del proyecto o un link de internet.</li>
+                        <li><b>alt:</b> Agrega un texto alternativo a la imagen.</li>
+                        <li><b>title:</b> Le agrega un título a la imagen.</li>
+                        <li><b>height:</b> Le especifica un ancho.</li>
+                        <li><b>width:</b> Se especifica un alto. <i>//de estos dos ultimos se recomienda usar UNO solamente.</i></li>
+                    </ul>
+                    <p><b>Recomendación de uso:</b> Se recomienda crear una carpeta especial para guardar imágenes, para no tener un desastre y mantener un orden dentro del
+                    proyecto.</p>
+                    <p><b>SEO:</b> Es <b>S</b>earch <b>E</b>ngine <b>O</b>ptimitation. O en español, Optimización para Motores de Búsqueda,
+                        para eso sirve el atributo <b>alt</b>.</p>
+                </div>
+                <div class="imagen">
+                    <img src="imgs/contenido/imgs.png" alt="Imagen imagen html">
+                </div>
+            </div>
+
+            <div class="abajo">
+                <h2>Resumen:</h2>
+                <div class="texto3">
+                    <p>Se explicó el formato, uso y atributos para la etiqueta de imágenes en HTML. Así como una recomendación para mantener un
+                    orden en nuestra carpeta de trabajo. Y también, el profesor compartió una página para poder validar los errores en
+                    nuestro código, siendo esta <i>validator.w3.org</i></p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <img src="imgs/pagina/Logo.png" alt="Logo">
+        </footer>
+    </main>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlases en HTML</title>
+
+    <!--  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=New+Amsterdam&display=swap" rel="stylesheet">
+    -->
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="imgs/pagina/Logo.png" alt="Imagen del logo">
+        </header>
+        <nav>
+            <a href="index.html">HTML</a>
+            <a href="index-texto.html">Texto</a>
+            <a href="index-imgs.html">Imagenes</a>
+            <a id="activo" href="index-links.html">Enlaces</a>
+            <a href="index-css.html">CSS</a>
+            <a href="index-disenio.html">Proceso de diseño</a>
+        </nav>
+        <section>
+            
+            <div class="titulo">
+                <h1>Enlaces en HTML.</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>Ideas principales:</h2>
+                <div class="texto1">
+                    <ol>
+                        <li>Sintaxis.</li>
+                        <li>Estados de un link.</li>
+                        <li>Atributos.</li>
+                        <li>Imagenes y texto.</li>
+                        <li>Navegación.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="derecha">
+                <h2>Apuntes de clase:</h2>
+                <div class="texto2">
+                    <p><b>Sintaxis:</b> la etiqueta se escribe de la siguiente manera: <br><i>&lt;a herf=<q>&#35;</q>&gt;Contenido de la etiqueta&lt;/a&gt;</i></p>
+                    <p><b>Estados:</b></p>
+                    <ul>
+                        <li><b>No visitado:</b> se verá de color Azul.</li>
+                        <li><b>Visitado:</b> se verá de color Morado.</li>
+                        <li><b>Activado:</b> se verá de color Rojo.</li>
+                    </ul>
+                    <p><b>Atributos:</b> Los atributos que podemos usar en esta etiqueta son: <b>herf:</b> Aquí se especifica la dirección a la cual nos llevara el enlace.</p>
+                    <ul>
+                        <li><b>herf:</b> Aquí se específica la dirección a la cual nos llevara el enlace.</li>
+                        <li>
+                            <p><b>target:</b> Específica donde se abrirá el enlace.</p>
+                            <ul>
+                                <li><b>_self:</b> Abre el enlace en la misma ventana. <i>//Es la opción por defecto.</i></li>
+                                <li><b>_blank:</b> Abre el enlace en una nueva pestaña o ventana del navegador.</li>
+                                <li><b>_parent:</b> Abre el enlace en el marco o ventana padre.<i>//Formularios.</i></li>
+                                <li><b>_top:</b> Abre el enlace en el marco o ventana padre. <i>//Formularios.</i></li>
+                            </ul>
+                        </li>
+                        <li><b>id:</b> Le asigna un identificador único a la etiqueta.</li>
+                    </ul>
+                    <p><b>Dimensionar:</b> Para dimensionar una imagen; primero, dentro de la etiqueta <b>a</b> ponemos la etiqueta <b>img</b>, y en el atributo <i>herf</i> ponemos la misma dirección que tenga la imagen. <br><i>&lt;a herf=<q><b>img.png</b></q>&gt;&lt;img src=<q><b>img.png</b></q>&gt;&lt;/a&gt;</i></p>
+                    <p><b>Navegación:</b> Para poder navegar en la página usando link, agregamos un ID al elemento que queremos ir, después ponemos atributo herf
+                    el ID de la siguiente manera:</p>
+                    <ul>
+                        <li>&lt;a herf=<q><b>&#35;imagen</b></q>&gt;Click para ir a la imagen&lt;/a&gt;<i>//para ir al id</i></li>
+                        <li>&lt;img src=<q>img.png</q> id=<q><b>imagen</b></q>&gt;<i>//define el id</i></li>
+                    </ul>
+                </div>
+                <div class="imagen-l">
+                    <img src="imgs/contenido/links-img.png" alt="Links en html" >
+                </div>
+            </div>
+
+            <div class="abajo">
+                <h2>Resumen:</h2>
+                <div class="texto3">
+                    <p>Se mostró la sintaxis de la etiqueta, así como sus atributos. También se explicó la función de los valores del atributo
+                    <b>target</b>. Se mostró como navegar por la página utilizando el atributo <b>id</b> y la etiqueta <b>&lt;a&gt;</b>. Así como
+                    dimensionar una imagen, para poder verla más a detalle.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <img src="imgs/pagina/Logo.png" alt="Logo">
+        </footer>
+    </main>
+</body>
+</html>

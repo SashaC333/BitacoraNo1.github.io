@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS en HTML</title>
+
+    <!--  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=New+Amsterdam&display=swap" rel="stylesheet">
+    -->
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="imgs/pagina/Logo.png" alt="Imagen del logo">
+        </header>
+        <nav>
+            <a href="index.html">HTML</a>
+            <a href="index-texto.html">Texto</a>
+            <a href="index-imgs.html">Imagenes</a>
+            <a href="index-links.html">Enlaces</a>
+            <a id="activo" href="index-css.html">CSS</a>
+            <a href="index-disenio.html">Proceso de diseño</a>
+        </nav>
+        <section>
+            
+            <div class="titulo">
+                <h1>CSS en HTML.</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>Ideas principales:</h2>
+                <div class="texto1">
+                    <ol>
+                        <li>CSS.</li>
+                        <li>Formas de usar CSS.</li>
+                        <li>Jerarquía de estilos.</li>
+                        <li>Secciones y elementos contenedores.</li>
+                        <li>En un documento CSS.</li>
+                        <li>Boxmodel.</li>
+                        <li>Selector universal.</li>
+                    </ol>
+
+                    <p><b>Notas:</b></p>
+                    <ul>
+                        <li>Funciona en lectura de cascada.</li>
+                        <li>Si se agrega un borde, este tambien aumenta el tama;o del contenedor.</li>
+                        <li>unicamente para la barra de navegación usaremos las propiedades: <br>{display:flex; justify-content: space-evenly; align-items: center; }</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="derecha">
+                <h2>Apuntes de clase:</h2>
+                <div class="texto2">
+                    <p><b>CSS:</b>Lenguaje de estilos que define la apariencia del HTML.</p>
+                    <p><b>Formas de usar CSS:</b></p>
+                    <ul>
+                        <li>Hoja de estilo incrustada ( &lt;style&gt; &lt;/style&gt; ).</li>
+                        <li>Hoja de estilo en línea, puesta como atributo en una etiqueta (style=<q> </q>).</li>
+                        <li>Hoja de estilo externa, o en otro archivo <br>(&lt;link rel=<q><b>&#35;stylesheet</b></q>
+                        type=<q><b>&#35;text/css</b></q> herf=<q><b>&#35;css/hoja.css</b></q>&gt;).</li>
+                    </ul>
+                    <p><b>Jerarquía de estilos:</b> Es de mayor jerarquía la hoja en línea, luego, la hoja incrustada y por último la hoja externa.</p>
+                    <p><b>Secciones y elementos contenedores:</b>.</p>
+                    <ol>
+                        <li>&lt;main&gt;&lt;/main&gt; <i>//contenedor</i></li>
+                        <li>&lt;header&gt;&lt;/header&gt; <i>//encabezado</i></li>
+                        <li>&lt;nav&gt;&lt;/nav&gt; <i>//navegación</i></li>
+                        <li>&lt;section&gt;&lt;/section&gt; <i>//contenido</i></li>
+                        <li>&lt;footer&gt;&lt;/footer&gt; <i>//pie de página</i></li>
+                    </ol>
+                    <p><b>Boxmodel:</b> A los elementos en HTML, se les puede dar una altura y un ancho para crear cajas, las cuales se complementan con las
+                        siguientes propiedades:</p>
+                    
+                    <ul>
+                        <li>margin</li>
+                        <li>border (: 0px solid red)</li>
+                        <li>padding</li>
+                        <li>auto</li>
+                    </ul>
+                    
+                    <p>Las propiedades <b>Margin</b> y <b>Padding</b> pueden trabajar con las siguientes palabras clave:</p>
+                    
+                    <ul>
+                        <li>top</li>
+                        <li>bottom</li>
+                        <li>left</li>
+                        <li>right</li>
+                    </ul>
+                    <p><b>Selector universal:</b> * {box-sizing:borderbox} //afecta a todo el documento CSS.</p>
+                </div>
+                <div class="imagen">
+                    <img src="imgs/contenido/CSS-basico.jpg" alt="CSS en HTML">
+                </div>
+            </div>
+
+            <div class="abajo">
+                <h2>Resumen:</h2>
+                <div class="texto3">
+                    <p>Habla sobre la <b>jerarquía de estilos</b>, <b>box model</b>, y el <b>selector universal</b>, explica sobre la
+                    <b>lectura en cascada</b> y el comportamiento de los <b>bordes</b>. Detalla cómo se usa <b>CSS</b> (<b>incrustado</b>,
+                    <b>en línea</b> y <b>externo</b>), la <b>jerarquía de estilos</b>, las <b>secciones contenedoras</b>, y explica el
+                    <b>modelo de cajas</b> en <b>HTML</b> con sus propiedades clave como <b>padding</b>, <b>margin</b> y <b>border</b>.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <img src="imgs/pagina/Logo.png" alt="Logo">
+        </footer>
+    </main>
+</body>
+</html>
